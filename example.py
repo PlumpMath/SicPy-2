@@ -36,7 +36,7 @@ print("original:\t", plain_text)
 print("cipher: \t", cipher_text)
 print("decipher:\t", string)
 
-# Just enough to try 'AZYX' which has a de-key of ABCD
+# Just enough to try 'ABCD'
 string = crypter.bruteforce(alphabet, cipher_text, 19010)
 for elem in string:
     print("key: ", elem[0], "\tde-key: ", elem[1], "\ttext: ", elem[2])
