@@ -1,13 +1,10 @@
-classic-crypto
-==============
+SicPy
+=====
 
-This project is a way I have found to learn more Ruby and Haskell.
+A classic cryptography python module
+------------------------------------
 
-I will be implementing simple crypto in both languages and sometimes in C too (to keep it fresh!).
+It started as a way of teaching myself some Ruby & Haskell, but I discovered Python...
 
-I will be implementing at least those ciphers:
-  * Julius Caesar cipher
-  * Monoalphabetic cipher
-  * Vigenère cipher
-
-All with some method of cryptanalysis
+This repo keeps the python development version.
+I will compile it as cython code but I have still to decide if those will be on a different branch.
