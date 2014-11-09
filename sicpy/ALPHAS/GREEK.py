@@ -1,3 +1,3 @@
-from alphabet import Alphabet
+from sicpy.alphabet import Alphabet
 
 MODERN = Alphabet('ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ')

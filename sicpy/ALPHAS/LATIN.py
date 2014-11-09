@@ -1,4 +1,4 @@
-from alphabet import Alphabet
+from sicpy.alphabet import Alphabet
 
 SPANISH    = Alphabet('ABCDEFGHIJKLMNÑOPQRSTUVWXYZ')
 FRENCH     = Alphabet('ABCDEFGHIJKLMNOPQRSTUVWXYZ')

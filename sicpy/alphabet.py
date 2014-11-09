@@ -1,14 +1,13 @@
-from utils.string import strip_duplicates
+from sicpy.utils.string import strip_duplicates
 
 class Alphabet:
     """
     """
     def __init__(self, string):
         """ """
-        self.alpha              = string
-        self.length             = len(string)
-        self.checked_length     = True
-        self.checked_duplicates = self.check_duplicates()
+        self.alpha      = string
+        self.length     = len(string)
+        self.duplicates = self.check_duplicates()
 
     def check_length(self):
         """ """

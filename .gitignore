@@ -1,0 +1,9 @@
+# General
+.DS_Store
+
+# Compiled python modules.
+*.pyc
+
+# Setuptools stuff
+dist/
+sicpy.egg-info/

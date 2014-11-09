@@ -1,4 +1,4 @@
-from alphabet import Alphabet
+from sicpy.alphabet import Alphabet
 
 RUSSIAN     = Alphabet('АБВГДЕЁЖЗИЙКЛМНОРСТУФЦЧШЩЪЫЬЭЮЯ')
 UKRANIAN    = Alphabet('АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ')

@@ -1,6 +1,7 @@
-def integer_iterator(self, key):
+def integer_iterator(self, alphabet, key):
     """ """
-    return key + 1
+    return (key+1) % alphabet.length
+
 
 def alphabet_iterator(self, alphabet, key):
     """ """
