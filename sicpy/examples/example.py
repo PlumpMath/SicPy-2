@@ -1,5 +1,5 @@
 # example
-import sicpy as sicpy
+import sicpy
 
 from sicpy.ciphers.caesar   import Caesar
 from sicpy.ciphers.vigenere import Vigenere
