@@ -3,6 +3,11 @@ def frequencies(alphabet=None, dictionary=None, text=None, length=1):
 
     without alphabet, just pick a group of that length
     with alphabet, pick groups made only of valid characters
+
+    won't change original dict, just return a new with extra stuff
+    should I just scrap that part?
+    adding 2 dicts is as easy a:
+    >>> z = dict(list(x.items()) + list(y.items()))
     """
 
     # Input errors
@@ -13,6 +18,7 @@ def frequencies(alphabet=None, dictionary=None, text=None, length=1):
     if dictionary == None:
         dictionary = {}
 
+    # main loop
     for index in range(len(text) - length + 1):
         # get the substring
         if alphabet is None:
