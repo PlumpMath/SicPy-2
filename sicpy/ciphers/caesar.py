@@ -35,7 +35,7 @@ class Caesar(Cryptobox):
 
     def bruteforce(self, times=None, alphabet=None, input_text=None):
         """ """
-        # initialise times to alphabet length
+        # initialise times to alphabet length if not specified
         if times == None:
             if alphabet == None:
                 times = self.alphabet.length

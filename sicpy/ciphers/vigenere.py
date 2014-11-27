@@ -41,7 +41,9 @@ class Vigenere(Cryptobox):
         return Cryptobox.decipher(self, alphabet, key, input_text)
 
     def bruteforce(self, times, alphabet=None, input_text=None):
-        """ """
+        """
+        times could be up to any string as long as the message,
+        it has no default value, it would be too long"""
         return Cryptobox.bruteforce(self, times, alphabet, input_text)
 
     def key_inverse(self, alphabet=None, key=None):

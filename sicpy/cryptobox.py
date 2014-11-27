@@ -5,7 +5,7 @@ class Cryptobox:
     """
         Note that only the alphabet is case sensitive, not the ciphers,
         that means that if a lowercase is found in the plain text,
-        the cipher-text will be made by ciphering the upper case leter.
+        the cipher-text will be made by ciphering the upper case letter.
 
         And beware that plain_text & cipher_text will never be overiten by
         self.cipher, self.decipher or self.bruteforce,
@@ -80,3 +80,16 @@ class Cryptobox:
             key = self.key_iterate(alphabet, key)
         return brutebox
 
+    def strip_non_alphabetic(self, alphabet=None, input_text=None):
+
+        if alphabet == None:
+            alphabet = self.alphabet
+        if input_text == None:
+            input_text = self.plain_text
+
+        stripped = ''
+        for letter in input_text:
+            if letter in alphabet.alpha:
+                stripped += letter
+
+        return stripped
